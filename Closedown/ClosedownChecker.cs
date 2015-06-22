@@ -15,8 +15,7 @@ namespace Closedown
         private const String ServiceID = "CLOSEDOWN";
         private const String ServiceURL = "https://closedown.linkhub.co.kr";
         private const String APIVersion = "1.0";
-        private const String CRLF = "\r\n";
-
+        
         private Token token;
         private Authority _LinkhubAuth;
         private List<String> _Scopes = new List<string>();
